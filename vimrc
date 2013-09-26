@@ -1,6 +1,7 @@
 colorscheme molokai
 
 set nocompatible
+set laststatus=2
 
 set diffexpr=MyDiff()
 function MyDiff()
