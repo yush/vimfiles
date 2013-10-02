@@ -1,7 +1,22 @@
-colorscheme molokai
+execute pathogen#infect()
+" colorscheme molokai
+syntax enable
+set background=dark
+colorscheme solarized
 
 set nocompatible
+
+" show status bar
 set laststatus=2
+filetype on
+set ruler
+
+" no swap files
+set nobackup
+set nowritebackup
+set noswapfile
+
+filetype plugin indent on
 
 set diffexpr=MyDiff()
 function MyDiff()
@@ -28,4 +43,3 @@ function MyDiff()
   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 endfunction
 
-execute pathogen#infect()
