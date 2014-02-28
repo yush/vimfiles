@@ -1,10 +1,10 @@
 execute pathogen#infect()
-" colorscheme molokai
+set nocompatible
 syntax enable
+
+" color scheme
 set background=dark
 colorscheme solarized
-
-set nocompatible
 
 " show status bar
 set laststatus=2
@@ -16,6 +16,11 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+" indentation
+set smartindent
+set tabstop=4
+set shiftwidth=4
+set expandtab
 filetype plugin indent on
 
 set diffexpr=MyDiff()
