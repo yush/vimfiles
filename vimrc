@@ -6,6 +6,8 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+set hlsearch
+
 " show status bar
 set laststatus=2
 filetype on
