@@ -2,6 +2,8 @@ execute pathogen#infect()
 set nocompatible
 syntax enable
 
+let mapleader = ','
+
 " color scheme
 set background=dark
 colorscheme solarized
