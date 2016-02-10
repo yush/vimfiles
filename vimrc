@@ -27,6 +27,9 @@ set shiftwidth=4
 set expandtab
 filetype plugin indent on
 
+set encoding=utf-8
+set fileencoding=utf-8 
+
 set diffexpr=MyDiff()
 function MyDiff()
   let opt = '-a --binary '
